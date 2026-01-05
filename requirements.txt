@@ -1,0 +1,5 @@
+selenium
+selenium-stealth
+webdriver-manager
+pandas
+openpyxl

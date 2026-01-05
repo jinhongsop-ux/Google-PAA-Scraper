@@ -1,0 +1,19 @@
+# 忽略数据结果
+results/
+*.xlsx
+*.csv
+
+# 忽略打包产生的垃圾文件
+build/
+dist/
+*.spec
+*.rar
+*.zip
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略本地环境配置
+.vscode/
+.idea/
