@@ -1,19 +1,38 @@
-# 忽略数据结果
-results/
-*.xlsx
-*.csv
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
 
-# 忽略打包产生的垃圾文件
+# Build / Distribution
 build/
 dist/
+*.egg-info/
+*.egg
 *.spec
-*.rar
-*.zip
 
-# 忽略 Python 缓存
-__pycache__/
-*.pyc
+# Results - 数据文件不提交到代码库
+results/
+*.xlsx
 
-# 忽略本地环境配置
-.vscode/
+# Logs
+*.log
+
+# IDE
 .idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
